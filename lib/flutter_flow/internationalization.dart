@@ -173,7 +173,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Fitty',
       'hi': '',
     },
-    'n4xhp381': {
+    'd2wrdv18': {
       'en': '',
       'hi': '',
     },
@@ -181,7 +181,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Mobile Number',
       'hi': 'मोबाइल नंबर',
     },
-    'nnirn5ze': {
+    'kur21ghn': {
       'en': '',
       'hi': '',
     },
@@ -276,7 +276,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'hi': '',
     },
     '2qp7iaj2': {
-      'en': 'Yoda Day Room',
+      'en': 'Yoga Day Room',
       'hi': '',
     },
     'azk5xcgs': {

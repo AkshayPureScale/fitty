@@ -159,7 +159,7 @@ class _HomeFitWidgetState extends State<HomeFitWidget> {
                                   alignment: const AlignmentDirectional(0.0, 0.0),
                                   child: Text(
                                     FFLocalizations.of(context).getText(
-                                      '2qp7iaj2' /* Yoda Day Room */,
+                                      '2qp7iaj2' /* Yoga Day Room */,
                                     ),
                                     style: FlutterFlowTheme.of(context)
                                         .headlineMedium
