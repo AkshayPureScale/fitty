@@ -64,6 +64,8 @@
     <string>In order to upload data, this app requires permission to access the photo library.</string>
 	<key>NSMotionUsageDescription</key>
     <string>This application tracks your steps</string>
+	<key>NSMicrophoneUsageDescription</key>
+    <string>This app will microphone for calls</string>
 
 
 	<key>UILaunchStoryboardName</key>

@@ -173,7 +173,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Fitty',
       'hi': '',
     },
-    'v4oy1iop': {
+    'n4xhp381': {
       'en': '',
       'hi': '',
     },
@@ -181,7 +181,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Mobile Number',
       'hi': 'मोबाइल नंबर',
     },
-    'e6zz383l': {
+    'nnirn5ze': {
       'en': '',
       'hi': '',
     },
@@ -568,6 +568,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'qzeykeg3': {
       'en': 'This application tracks your steps',
+      'hi': '',
+    },
+    'yrxtttlu': {
+      'en': 'This app will microphone for calls',
       'hi': '',
     },
     'kiza8w49': {

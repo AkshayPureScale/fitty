@@ -3,6 +3,8 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/global_component/background_card/background_card_widget.dart';
 import 'dart:ui';
+import '/custom_code/actions/index.dart' as actions;
+import '/flutter_flow/permissions_util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'home_fit_model.dart';
@@ -126,6 +128,10 @@ class _HomeFitWidgetState extends State<HomeFitWidget> {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
+                          await requestPermission(microphonePermission);
+                          await requestPermission(cameraPermission);
+                          await actions.zegoInitProfile();
+
                           context.pushNamed(
                             'Room',
                             queryParameters: {
