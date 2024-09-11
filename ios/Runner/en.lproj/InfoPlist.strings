@@ -1,1 +1,2 @@
 NSMotionUsageDescription = "This application tracks your steps";
+NSMicrophoneUsageDescription = "This app will microphone for calls";
