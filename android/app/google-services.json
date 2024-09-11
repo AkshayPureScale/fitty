@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "923773604207",
+    "project_id": "fitty-f9ff5",
+    "storage_bucket": "fitty-f9ff5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923773604207:android:60d794552e87e309bc189a",
+        "android_client_info": {
+          "package_name": "com.fitty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbIwsof4E4RzwiWkbi2In5r3hdFnOzp50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
