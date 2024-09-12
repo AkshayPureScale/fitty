@@ -98,7 +98,7 @@ class _UserInfoGridWidgetState extends State<UserInfoGridWidget> {
                   child: Text(
                     containerUsersRecord.displayName,
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Capriola',
+                          fontFamily: 'Roboto',
                           letterSpacing: 0.0,
                         ),
                   ),

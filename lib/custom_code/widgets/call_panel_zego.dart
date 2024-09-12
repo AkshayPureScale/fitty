@@ -63,17 +63,20 @@ class _CallPanelZegoState extends State<CallPanelZego> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.transparent,
       body: Column(
         children: [
           Wrap(
-            spacing: 16,
+            crossAxisAlignment: WrapCrossAlignment.center,
+            alignment: WrapAlignment.spaceEvenly,
+            spacing: 6,
             children: [
               SizedBox.square(
-                dimension: 100,
+                dimension: MediaQuery.of(context).size.width * 0.1,
                 child: localView ?? const SizedBox.shrink(),
               ),
               SizedBox.square(
-                dimension: 100,
+                dimension: MediaQuery.of(context).size.width * 0.1,
                 child: AspectRatio(
                   aspectRatio: 9.0 / 16.0,
                   child: remoteView ?? Container(color: Colors.transparent),

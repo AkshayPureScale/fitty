@@ -72,7 +72,7 @@ class _ViewRequestsWidgetState extends State<ViewRequestsWidget>
                     'r433s7mj' /* Friend Requests */,
                   ),
                   style: FlutterFlowTheme.of(context).headlineSmall.override(
-                        fontFamily: 'Delius Swash Caps',
+                        fontFamily: 'Roboto',
                         letterSpacing: 0.0,
                       ),
                 ),
@@ -99,7 +99,7 @@ class _ViewRequestsWidgetState extends State<ViewRequestsWidget>
                         'b901u6x2' /* Recent search... */,
                       ),
                       style: FlutterFlowTheme.of(context).labelMedium.override(
-                            fontFamily: 'Capriola',
+                            fontFamily: 'Roboto',
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -235,7 +235,7 @@ class _ViewRequestsWidgetState extends State<ViewRequestsWidget>
                                                                 .bodyLarge
                                                                 .override(
                                                                   fontFamily:
-                                                                      'Capriola',
+                                                                      'Roboto',
                                                                   letterSpacing:
                                                                       0.0,
                                                                 ),
@@ -257,7 +257,7 @@ class _ViewRequestsWidgetState extends State<ViewRequestsWidget>
                                                               .bodySmall
                                                               .override(
                                                                 fontFamily:
-                                                                    'Capriola',
+                                                                    'Roboto',
                                                                 color: FlutterFlowTheme.of(
                                                                         context)
                                                                     .tertiary,

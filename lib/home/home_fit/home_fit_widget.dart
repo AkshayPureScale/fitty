@@ -62,14 +62,14 @@ class _HomeFitWidgetState extends State<HomeFitWidget> {
           desktop: false,
         )
             ? AppBar(
-                backgroundColor: FlutterFlowTheme.of(context).primary,
+                backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
                 automaticallyImplyLeading: true,
                 title: Text(
                   FFLocalizations.of(context).getText(
                     'nz0bft14' /* Fitty */,
                   ),
                   style: FlutterFlowTheme.of(context).headlineSmall.override(
-                        fontFamily: 'Delius Swash Caps',
+                        fontFamily: 'Roboto',
                         color: FlutterFlowTheme.of(context).accent3,
                         fontSize: 22.0,
                         letterSpacing: 0.0,
@@ -113,7 +113,7 @@ class _HomeFitWidgetState extends State<HomeFitWidget> {
                       ),
                       style:
                           FlutterFlowTheme.of(context).headlineSmall.override(
-                                fontFamily: 'Delius Swash Caps',
+                                fontFamily: 'Roboto',
                                 letterSpacing: 0.0,
                               ),
                     ),
@@ -158,12 +158,12 @@ class _HomeFitWidgetState extends State<HomeFitWidget> {
                                   alignment: const AlignmentDirectional(0.0, 0.0),
                                   child: Text(
                                     FFLocalizations.of(context).getText(
-                                      '2qp7iaj2' /* Yoda Day Room */,
+                                      '2qp7iaj2' /* Yoga Day Room */,
                                     ),
                                     style: FlutterFlowTheme.of(context)
                                         .headlineMedium
                                         .override(
-                                          fontFamily: 'Delius Swash Caps',
+                                          fontFamily: 'Roboto',
                                           fontSize: 32.0,
                                           letterSpacing: 0.0,
                                         ),
@@ -176,7 +176,7 @@ class _HomeFitWidgetState extends State<HomeFitWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodySmall
                                       .override(
-                                        fontFamily: 'Capriola',
+                                        fontFamily: 'Roboto',
                                         letterSpacing: 0.0,
                                       ),
                                 ),
