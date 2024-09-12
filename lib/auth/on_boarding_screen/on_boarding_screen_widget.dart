@@ -316,7 +316,7 @@ class _OnBoardingScreenWidgetState extends State<OnBoardingScreenWidget>
                       }(),
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
-                                fontFamily: 'Delius Swash Caps',
+                                fontFamily: 'Roboto',
                                 letterSpacing: 0.0,
                               ),
                     ),
@@ -380,7 +380,7 @@ class _OnBoardingScreenWidgetState extends State<OnBoardingScreenWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .headlineMedium
                                             .override(
-                                              fontFamily: 'Delius Swash Caps',
+                                              fontFamily: 'Roboto',
                                               letterSpacing: 0.0,
                                             ),
                                       ).animateOnPageLoad(animationsMap[
@@ -395,7 +395,7 @@ class _OnBoardingScreenWidgetState extends State<OnBoardingScreenWidget>
                                           style: FlutterFlowTheme.of(context)
                                               .labelMedium
                                               .override(
-                                                fontFamily: 'Capriola',
+                                                fontFamily: 'Roboto',
                                                 letterSpacing: 0.0,
                                               ),
                                         ).animateOnPageLoad(animationsMap[
@@ -466,7 +466,7 @@ class _OnBoardingScreenWidgetState extends State<OnBoardingScreenWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .headlineMedium
                                             .override(
-                                              fontFamily: 'Delius Swash Caps',
+                                              fontFamily: 'Roboto',
                                               letterSpacing: 0.0,
                                             ),
                                       ).animateOnPageLoad(animationsMap[
@@ -481,7 +481,7 @@ class _OnBoardingScreenWidgetState extends State<OnBoardingScreenWidget>
                                           style: FlutterFlowTheme.of(context)
                                               .labelMedium
                                               .override(
-                                                fontFamily: 'Capriola',
+                                                fontFamily: 'Roboto',
                                                 letterSpacing: 0.0,
                                               ),
                                         ).animateOnPageLoad(animationsMap[
@@ -552,7 +552,7 @@ class _OnBoardingScreenWidgetState extends State<OnBoardingScreenWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .headlineMedium
                                             .override(
-                                              fontFamily: 'Delius Swash Caps',
+                                              fontFamily: 'Roboto',
                                               letterSpacing: 0.0,
                                             ),
                                       ).animateOnPageLoad(animationsMap[
@@ -567,7 +567,7 @@ class _OnBoardingScreenWidgetState extends State<OnBoardingScreenWidget>
                                           style: FlutterFlowTheme.of(context)
                                               .labelMedium
                                               .override(
-                                                fontFamily: 'Capriola',
+                                                fontFamily: 'Roboto',
                                                 letterSpacing: 0.0,
                                               ),
                                         ).animateOnPageLoad(animationsMap[

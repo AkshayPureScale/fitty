@@ -59,7 +59,7 @@ class _NoDataWithLottieWidgetState extends State<NoDataWithLottieWidget> {
             widget.message,
             textAlign: TextAlign.center,
             style: FlutterFlowTheme.of(context).bodySmall.override(
-                  fontFamily: 'Capriola',
+                  fontFamily: 'Roboto',
                   letterSpacing: 0.0,
                 ),
           ),

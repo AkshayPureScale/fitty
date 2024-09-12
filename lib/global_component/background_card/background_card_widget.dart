@@ -75,16 +75,12 @@ class _BackgroundCardWidgetState extends State<BackgroundCardWidget>
         width: double.infinity,
         height: double.infinity,
         decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors: [
-              FlutterFlowTheme.of(context).secondaryBackground,
-              FlutterFlowTheme.of(context).accent4,
-              FlutterFlowTheme.of(context).secondary,
-              FlutterFlowTheme.of(context).accent3
-            ],
-            stops: const [0.0, 0.4, 0.6, 1.0],
-            begin: const AlignmentDirectional(-1.0, -1.0),
-            end: const AlignmentDirectional(1.0, 1.0),
+          color: FlutterFlowTheme.of(context).secondaryBackground,
+          image: DecorationImage(
+            fit: BoxFit.none,
+            image: Image.asset(
+              'assets/images/transparent_logo.png',
+            ).image,
           ),
         ),
         child: Container(
@@ -93,12 +89,13 @@ class _BackgroundCardWidgetState extends State<BackgroundCardWidget>
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                const Color(0x1A000000),
-                FlutterFlowTheme.of(context).secondaryBackground
+                FlutterFlowTheme.of(context).primaryBackground,
+                const Color(0xCD0D0D0D),
+                FlutterFlowTheme.of(context).primaryBackground
               ],
-              stops: const [0.0, 1.0],
-              begin: const AlignmentDirectional(0.0, -1.0),
-              end: const AlignmentDirectional(0, 1.0),
+              stops: const [0.2, 0.5, 1.0],
+              begin: const AlignmentDirectional(1.0, -1.0),
+              end: const AlignmentDirectional(-1.0, 1.0),
             ),
           ),
         ),

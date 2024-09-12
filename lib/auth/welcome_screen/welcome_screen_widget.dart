@@ -172,7 +172,7 @@ class _WelcomeScreenWidgetState extends State<WelcomeScreenWidget>
                           style: FlutterFlowTheme.of(context)
                               .displaySmall
                               .override(
-                                fontFamily: 'Delius Swash Caps',
+                                fontFamily: 'Roboto',
                                 letterSpacing: 0.0,
                               ),
                         ).animateOnPageLoad(
@@ -188,7 +188,7 @@ class _WelcomeScreenWidgetState extends State<WelcomeScreenWidget>
                           textAlign: TextAlign.center,
                           style:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Capriola',
+                                    fontFamily: 'Roboto',
                                     letterSpacing: 0.0,
                                   ),
                         ).animateOnPageLoad(
@@ -220,26 +220,26 @@ class _WelcomeScreenWidgetState extends State<WelcomeScreenWidget>
                                 width: 230.0,
                                 height: 52.0,
                                 padding: const EdgeInsetsDirectional.fromSTEB(
-                                    16.0, 0.0, 16.0, 0.0),
+                                    24.0, 6.0, 24.0, 6.0),
                                 iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                     0.0, 0.0, 0.0, 0.0),
-                                color: const Color(0x00FFFFFF),
+                                color: FlutterFlowTheme.of(context)
+                                    .secondaryBackground,
                                 textStyle: FlutterFlowTheme.of(context)
-                                    .titleSmall
+                                    .bodyMedium
                                     .override(
-                                      fontFamily: 'Capriola',
-                                      color: FlutterFlowTheme.of(context)
-                                          .secondary,
-                                      fontSize: 14.0,
-                                      letterSpacing: 0.5,
-                                      fontWeight: FontWeight.w500,
+                                      fontFamily: 'Roboto',
+                                      color:
+                                          FlutterFlowTheme.of(context).primary,
+                                      fontSize: 12.0,
+                                      letterSpacing: 0.0,
                                     ),
                                 elevation: 0.0,
                                 borderSide: BorderSide(
-                                  color: FlutterFlowTheme.of(context).secondary,
+                                  color: FlutterFlowTheme.of(context).primary,
                                   width: 0.5,
                                 ),
-                                borderRadius: BorderRadius.circular(16.0),
+                                borderRadius: BorderRadius.circular(6.0),
                               ),
                             ),
                           ),
@@ -262,25 +262,24 @@ class _WelcomeScreenWidgetState extends State<WelcomeScreenWidget>
                                 width: 230.0,
                                 height: 52.0,
                                 padding: const EdgeInsetsDirectional.fromSTEB(
-                                    16.0, 0.0, 16.0, 0.0),
+                                    24.0, 6.0, 24.0, 6.0),
                                 iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                     0.0, 0.0, 0.0, 0.0),
-                                color: FlutterFlowTheme.of(context).secondary,
+                                color: FlutterFlowTheme.of(context).primary,
                                 textStyle: FlutterFlowTheme.of(context)
-                                    .titleSmall
+                                    .bodyMedium
                                     .override(
-                                      fontFamily: 'Capriola',
-                                      color: Colors.white,
-                                      fontSize: 14.0,
-                                      letterSpacing: 0.75,
-                                      fontWeight: FontWeight.w500,
+                                      fontFamily: 'Roboto',
+                                      color: FlutterFlowTheme.of(context)
+                                          .secondary,
+                                      fontSize: 12.0,
+                                      letterSpacing: 0.0,
                                     ),
                                 elevation: 0.5,
-                                borderSide: BorderSide(
-                                  color: FlutterFlowTheme.of(context).accent1,
-                                  width: 0.5,
+                                borderSide: const BorderSide(
+                                  width: 0.0,
                                 ),
-                                borderRadius: BorderRadius.circular(16.0),
+                                borderRadius: BorderRadius.circular(6.0),
                               ),
                             ),
                           ),

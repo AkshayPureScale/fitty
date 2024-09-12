@@ -78,7 +78,7 @@ class _OtpScreenWidgetState extends State<OtpScreenWidget> {
                       'lzp4nne1' /* Fitty */,
                     ),
                     style: FlutterFlowTheme.of(context).displayMedium.override(
-                          fontFamily: 'Delius Swash Caps',
+                          fontFamily: 'Roboto',
                           letterSpacing: 0.0,
                         ),
                   ),
@@ -129,7 +129,7 @@ class _OtpScreenWidgetState extends State<OtpScreenWidget> {
                           ],
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'Capriola',
+                                    fontFamily: 'Roboto',
                                     letterSpacing: 0.0,
                                   ),
                         ),
@@ -141,7 +141,7 @@ class _OtpScreenWidgetState extends State<OtpScreenWidget> {
                     appContext: context,
                     length: 6,
                     textStyle: FlutterFlowTheme.of(context).bodyLarge.override(
-                          fontFamily: 'Capriola',
+                          fontFamily: 'Roboto',
                           letterSpacing: 0.0,
                         ),
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -223,24 +223,22 @@ class _OtpScreenWidgetState extends State<OtpScreenWidget> {
                         width: double.infinity,
                         height: 40.0,
                         padding: const EdgeInsetsDirectional.fromSTEB(
-                            16.0, 0.0, 16.0, 0.0),
+                            24.0, 6.0, 24.0, 6.0),
                         iconPadding:
                             const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        color: FlutterFlowTheme.of(context).secondary,
+                        color: FlutterFlowTheme.of(context).primary,
                         textStyle:
-                            FlutterFlowTheme.of(context).titleSmall.override(
-                                  fontFamily: 'Capriola',
-                                  color: Colors.white,
-                                  fontSize: 14.0,
-                                  letterSpacing: 0.75,
-                                  fontWeight: FontWeight.w500,
+                            FlutterFlowTheme.of(context).bodyMedium.override(
+                                  fontFamily: 'Roboto',
+                                  color: FlutterFlowTheme.of(context).secondary,
+                                  fontSize: 12.0,
+                                  letterSpacing: 0.0,
                                 ),
                         elevation: 0.5,
-                        borderSide: BorderSide(
-                          color: FlutterFlowTheme.of(context).accent1,
-                          width: 0.5,
+                        borderSide: const BorderSide(
+                          width: 0.0,
                         ),
-                        borderRadius: BorderRadius.circular(16.0),
+                        borderRadius: BorderRadius.circular(6.0),
                       ),
                     ),
                   ),
@@ -261,7 +259,7 @@ class _OtpScreenWidgetState extends State<OtpScreenWidget> {
                             ),
                             style:
                                 FlutterFlowTheme.of(context).bodySmall.override(
-                                      fontFamily: 'Capriola',
+                                      fontFamily: 'Roboto',
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryText,
                                       letterSpacing: 0.0,
@@ -274,7 +272,7 @@ class _OtpScreenWidgetState extends State<OtpScreenWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .headlineSmall
                                 .override(
-                                  fontFamily: 'Delius Swash Caps',
+                                  fontFamily: 'Roboto',
                                   fontSize: 13.0,
                                   letterSpacing: 0.0,
                                 ),
@@ -286,7 +284,7 @@ class _OtpScreenWidgetState extends State<OtpScreenWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Capriola',
+                                  fontFamily: 'Roboto',
                                   color: FlutterFlowTheme.of(context).secondary,
                                   fontSize: 13.0,
                                   letterSpacing: 0.0,
@@ -305,7 +303,7 @@ class _OtpScreenWidgetState extends State<OtpScreenWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Capriola',
+                                  fontFamily: 'Roboto',
                                   color: FlutterFlowTheme.of(context)
                                       .secondaryText,
                                   fontSize: 12.0,
@@ -319,7 +317,7 @@ class _OtpScreenWidgetState extends State<OtpScreenWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodySmall
                                 .override(
-                                  fontFamily: 'Capriola',
+                                  fontFamily: 'Roboto',
                                   color: FlutterFlowTheme.of(context).secondary,
                                   letterSpacing: 0.0,
                                 ),
@@ -337,14 +335,14 @@ class _OtpScreenWidgetState extends State<OtpScreenWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Capriola',
+                                  fontFamily: 'Roboto',
                                   letterSpacing: 0.0,
                                   decoration: TextDecoration.underline,
                                 ),
                           )
                         ],
                         style: FlutterFlowTheme.of(context).bodySmall.override(
-                              fontFamily: 'Capriola',
+                              fontFamily: 'Roboto',
                               color: FlutterFlowTheme.of(context).secondaryText,
                               fontSize: 12.0,
                               letterSpacing: 0.0,

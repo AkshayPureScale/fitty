@@ -52,14 +52,14 @@ class _HomeFriendsWidgetState extends State<HomeFriendsWidget> {
           desktop: false,
         )
             ? AppBar(
-                backgroundColor: FlutterFlowTheme.of(context).primary,
+                backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
                 automaticallyImplyLeading: true,
                 title: Text(
                   FFLocalizations.of(context).getText(
                     'c1p1cejg' /* Fitty */,
                   ),
                   style: FlutterFlowTheme.of(context).headlineSmall.override(
-                        fontFamily: 'Delius Swash Caps',
+                        fontFamily: 'Roboto',
                         color: FlutterFlowTheme.of(context).accent3,
                         fontSize: 22.0,
                         letterSpacing: 0.0,
@@ -159,7 +159,7 @@ class _HomeFriendsWidgetState extends State<HomeFriendsWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        fontFamily: 'Capriola',
+                                        fontFamily: 'Roboto',
                                         letterSpacing: 0.0,
                                       ),
                                 ),
@@ -213,7 +213,7 @@ class _HomeFriendsWidgetState extends State<HomeFriendsWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Capriola',
+                                          fontFamily: 'Roboto',
                                           letterSpacing: 0.0,
                                         ),
                                   ),
@@ -270,7 +270,7 @@ class _HomeFriendsWidgetState extends State<HomeFriendsWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .titleLarge
                                                       .override(
-                                                        fontFamily: 'Capriola',
+                                                        fontFamily: 'Roboto',
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),
@@ -283,7 +283,7 @@ class _HomeFriendsWidgetState extends State<HomeFriendsWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .labelMedium
                                                       .override(
-                                                        fontFamily: 'Capriola',
+                                                        fontFamily: 'Roboto',
                                                         letterSpacing: 0.0,
                                                       ),
                                             ),

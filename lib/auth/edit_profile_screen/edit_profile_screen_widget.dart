@@ -68,7 +68,7 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
           desktop: false,
         )
             ? AppBar(
-                backgroundColor: FlutterFlowTheme.of(context).primary,
+                backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
                 automaticallyImplyLeading: false,
                 leading: Visibility(
                   visible: valueOrDefault<bool>(
@@ -95,7 +95,7 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                     'dfjpzl89' /* Profile */,
                   ),
                   style: FlutterFlowTheme.of(context).headlineSmall.override(
-                        fontFamily: 'Delius Swash Caps',
+                        fontFamily: 'Roboto',
                         fontSize: 22.0,
                         letterSpacing: 0.0,
                       ),
@@ -158,7 +158,7 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .labelMedium
                                   .override(
-                                    fontFamily: 'Capriola',
+                                    fontFamily: 'Roboto',
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -275,28 +275,28 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                     options: FFButtonOptions(
                                       height: 44.0,
                                       padding: const EdgeInsetsDirectional.fromSTEB(
-                                          16.0, 0.0, 16.0, 0.0),
+                                          24.0, 6.0, 24.0, 6.0),
                                       iconPadding:
                                           const EdgeInsetsDirectional.fromSTEB(
                                               0.0, 0.0, 0.0, 0.0),
-                                      color: const Color(0x00FFFFFF),
+                                      color: FlutterFlowTheme.of(context)
+                                          .secondaryBackground,
                                       textStyle: FlutterFlowTheme.of(context)
-                                          .titleSmall
+                                          .bodyMedium
                                           .override(
-                                            fontFamily: 'Capriola',
+                                            fontFamily: 'Roboto',
                                             color: FlutterFlowTheme.of(context)
-                                                .secondary,
-                                            fontSize: 14.0,
-                                            letterSpacing: 0.5,
-                                            fontWeight: FontWeight.w500,
+                                                .primary,
+                                            fontSize: 12.0,
+                                            letterSpacing: 0.0,
                                           ),
                                       elevation: 0.0,
                                       borderSide: BorderSide(
                                         color: FlutterFlowTheme.of(context)
-                                            .secondary,
+                                            .primary,
                                         width: 0.5,
                                       ),
-                                      borderRadius: BorderRadius.circular(16.0),
+                                      borderRadius: BorderRadius.circular(6.0),
                                     ),
                                   ),
                                 ].divide(const SizedBox(width: 16.0)),
@@ -315,7 +315,7 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                   labelStyle: FlutterFlowTheme.of(context)
                                       .labelMedium
                                       .override(
-                                        fontFamily: 'Capriola',
+                                        fontFamily: 'Roboto',
                                         color: FlutterFlowTheme.of(context)
                                             .secondaryBackground,
                                         letterSpacing: 0.0,
@@ -326,15 +326,15 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .labelMedium
                                       .override(
-                                        fontFamily: 'Capriola',
+                                        fontFamily: 'Roboto',
                                         color: FlutterFlowTheme.of(context)
-                                            .secondaryBackground,
+                                            .secondaryText,
                                         letterSpacing: 0.0,
                                       ),
                                   enabledBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
                                       color: FlutterFlowTheme.of(context)
-                                          .secondaryBackground,
+                                          .secondaryText,
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(8.0),
@@ -342,7 +342,7 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                   focusedBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
                                       color: FlutterFlowTheme.of(context)
-                                          .primaryBackground,
+                                          .secondary,
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(8.0),
@@ -362,8 +362,13 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                     borderRadius: BorderRadius.circular(8.0),
                                   ),
                                   filled: true,
-                                  fillColor:
-                                      FlutterFlowTheme.of(context).alternate,
+                                  fillColor: FlutterFlowTheme.of(context)
+                                      .secondaryBackground,
+                                  contentPadding:
+                                      const EdgeInsetsDirectional.fromSTEB(
+                                          24.0, 16.0, 24.0, 16.0),
+                                  hoverColor:
+                                      FlutterFlowTheme.of(context).secondary,
                                 ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
@@ -371,10 +376,11 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                       fontFamily: 'Capriola',
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryBackground,
+                                      fontSize: 12.0,
                                       letterSpacing: 0.0,
                                     ),
-                                cursorColor: FlutterFlowTheme.of(context)
-                                    .primaryBackground,
+                                cursorColor:
+                                    FlutterFlowTheme.of(context).secondary,
                                 validator: _model
                                     .yourNameTextControllerValidator
                                     .asValidator(context),
@@ -393,7 +399,7 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                   labelStyle: FlutterFlowTheme.of(context)
                                       .labelMedium
                                       .override(
-                                        fontFamily: 'Capriola',
+                                        fontFamily: 'Roboto',
                                         color: FlutterFlowTheme.of(context)
                                             .secondaryBackground,
                                         letterSpacing: 0.0,
@@ -404,15 +410,15 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                   hintStyle: FlutterFlowTheme.of(context)
                                       .labelMedium
                                       .override(
-                                        fontFamily: 'Capriola',
+                                        fontFamily: 'Roboto',
                                         color: FlutterFlowTheme.of(context)
-                                            .secondaryBackground,
+                                            .secondaryText,
                                         letterSpacing: 0.0,
                                       ),
                                   enabledBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
                                       color: FlutterFlowTheme.of(context)
-                                          .secondaryBackground,
+                                          .secondaryText,
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(8.0),
@@ -420,7 +426,7 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                   focusedBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
                                       color: FlutterFlowTheme.of(context)
-                                          .primaryBackground,
+                                          .secondary,
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(8.0),
@@ -440,8 +446,13 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                     borderRadius: BorderRadius.circular(8.0),
                                   ),
                                   filled: true,
-                                  fillColor:
-                                      FlutterFlowTheme.of(context).alternate,
+                                  fillColor: FlutterFlowTheme.of(context)
+                                      .secondaryBackground,
+                                  contentPadding:
+                                      const EdgeInsetsDirectional.fromSTEB(
+                                          24.0, 16.0, 24.0, 16.0),
+                                  hoverColor:
+                                      FlutterFlowTheme.of(context).secondary,
                                 ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
@@ -449,10 +460,11 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                       fontFamily: 'Capriola',
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryBackground,
+                                      fontSize: 12.0,
                                       letterSpacing: 0.0,
                                     ),
-                                cursorColor: FlutterFlowTheme.of(context)
-                                    .primaryBackground,
+                                cursorColor:
+                                    FlutterFlowTheme.of(context).secondary,
                                 validator: _model
                                     .yourEmailTextControllerValidator
                                     .asValidator(context),
@@ -485,8 +497,7 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                             FlutterFlowTheme.of(context)
                                                 .headlineLarge
                                                 .override(
-                                                  fontFamily:
-                                                      'Delius Swash Caps',
+                                                  fontFamily: 'Roboto',
                                                   fontSize: 32.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w600,
@@ -554,7 +565,7 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodySmall
                                                 .override(
-                                                  fontFamily: 'Capriola',
+                                                  fontFamily: 'Roboto',
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .primary,
@@ -585,7 +596,7 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
-                                          fontFamily: 'Capriola',
+                                          fontFamily: 'Roboto',
                                           color: FlutterFlowTheme.of(context)
                                               .accent1,
                                           letterSpacing: 0.0,
@@ -611,14 +622,14 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                     textStyle: FlutterFlowTheme.of(context)
                                         .labelMedium
                                         .override(
-                                          fontFamily: 'Capriola',
+                                          fontFamily: 'Roboto',
                                           letterSpacing: 0.0,
                                         ),
                                     selectedTextStyle:
                                         FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'Capriola',
+                                              fontFamily: 'Roboto',
                                               letterSpacing: 0.0,
                                             ),
                                     buttonPosition: RadioButtonPosition.left,
@@ -669,7 +680,11 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .labelMedium
                                                       .override(
-                                                        fontFamily: 'Capriola',
+                                                        fontFamily: 'Roboto',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryText,
                                                         letterSpacing: 0.0,
                                                       ),
                                               hintText:
@@ -681,17 +696,18 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .labelMedium
                                                       .override(
-                                                        fontFamily: 'Capriola',
-                                                        color: FlutterFlowTheme
-                                                                .of(context)
-                                                            .secondaryBackground,
+                                                        fontFamily: 'Roboto',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .secondaryText,
                                                         letterSpacing: 0.0,
                                                       ),
                                               enabledBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
                                                           context)
-                                                      .secondaryBackground,
+                                                      .secondaryText,
                                                   width: 1.0,
                                                 ),
                                                 borderRadius:
@@ -701,7 +717,7 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
                                                           context)
-                                                      .primaryBackground,
+                                                      .secondary,
                                                   width: 1.0,
                                                 ),
                                                 borderRadius:
@@ -731,7 +747,14 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                               filled: true,
                                               fillColor:
                                                   FlutterFlowTheme.of(context)
-                                                      .alternate,
+                                                      .secondaryBackground,
+                                              contentPadding:
+                                                  const EdgeInsetsDirectional
+                                                      .fromSTEB(24.0, 16.0,
+                                                          24.0, 16.0),
+                                              hoverColor:
+                                                  FlutterFlowTheme.of(context)
+                                                      .secondary,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
@@ -740,11 +763,12 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .secondaryBackground,
+                                                  fontSize: 12.0,
                                                   letterSpacing: 0.0,
                                                 ),
                                             cursorColor:
                                                 FlutterFlowTheme.of(context)
-                                                    .primaryBackground,
+                                                    .secondary,
                                             validator: _model
                                                 .textController3Validator
                                                 .asValidator(context),
@@ -773,7 +797,11 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .labelMedium
                                                       .override(
-                                                        fontFamily: 'Capriola',
+                                                        fontFamily: 'Roboto',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .primaryText,
                                                         letterSpacing: 0.0,
                                                       ),
                                               hintText:
@@ -785,17 +813,18 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                                   FlutterFlowTheme.of(context)
                                                       .labelMedium
                                                       .override(
-                                                        fontFamily: 'Capriola',
-                                                        color: FlutterFlowTheme
-                                                                .of(context)
-                                                            .secondaryBackground,
+                                                        fontFamily: 'Roboto',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .secondaryText,
                                                         letterSpacing: 0.0,
                                                       ),
                                               enabledBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
                                                           context)
-                                                      .secondaryBackground,
+                                                      .secondaryText,
                                                   width: 1.0,
                                                 ),
                                                 borderRadius:
@@ -805,7 +834,7 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
                                                           context)
-                                                      .primaryBackground,
+                                                      .secondary,
                                                   width: 1.0,
                                                 ),
                                                 borderRadius:
@@ -835,7 +864,14 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                               filled: true,
                                               fillColor:
                                                   FlutterFlowTheme.of(context)
-                                                      .alternate,
+                                                      .secondaryBackground,
+                                              contentPadding:
+                                                  const EdgeInsetsDirectional
+                                                      .fromSTEB(24.0, 16.0,
+                                                          24.0, 16.0),
+                                              hoverColor:
+                                                  FlutterFlowTheme.of(context)
+                                                      .secondary,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
@@ -844,11 +880,12 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .secondaryBackground,
+                                                  fontSize: 12.0,
                                                   letterSpacing: 0.0,
                                                 ),
                                             cursorColor:
                                                 FlutterFlowTheme.of(context)
-                                                    .primaryBackground,
+                                                    .secondary,
                                             validator: _model
                                                 .textController4Validator
                                                 .asValidator(context),
@@ -899,30 +936,30 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                       options: FFButtonOptions(
                                         height: 44.0,
                                         padding: const EdgeInsetsDirectional.fromSTEB(
-                                            16.0, 0.0, 16.0, 0.0),
+                                            24.0, 6.0, 24.0, 6.0),
                                         iconPadding:
                                             const EdgeInsetsDirectional.fromSTEB(
                                                 0.0, 0.0, 0.0, 0.0),
-                                        color: const Color(0x00FFFFFF),
+                                        color: FlutterFlowTheme.of(context)
+                                            .secondaryBackground,
                                         textStyle: FlutterFlowTheme.of(context)
-                                            .titleSmall
+                                            .bodyMedium
                                             .override(
-                                              fontFamily: 'Capriola',
+                                              fontFamily: 'Roboto',
                                               color:
                                                   FlutterFlowTheme.of(context)
-                                                      .secondary,
-                                              fontSize: 14.0,
-                                              letterSpacing: 0.5,
-                                              fontWeight: FontWeight.w500,
+                                                      .primary,
+                                              fontSize: 12.0,
+                                              letterSpacing: 0.0,
                                             ),
                                         elevation: 0.0,
                                         borderSide: BorderSide(
                                           color: FlutterFlowTheme.of(context)
-                                              .secondary,
+                                              .primary,
                                           width: 0.5,
                                         ),
                                         borderRadius:
-                                            BorderRadius.circular(16.0),
+                                            BorderRadius.circular(6.0),
                                       ),
                                     ),
                                   ),
@@ -993,7 +1030,7 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
-                                                  fontFamily: 'Capriola',
+                                                  fontFamily: 'Roboto',
                                                   color: Colors.white,
                                                   letterSpacing: 0.0,
                                                 ),
@@ -1018,28 +1055,26 @@ class _EditProfileScreenWidgetState extends State<EditProfileScreenWidget> {
                                               0.9),
                                       height: 44.0,
                                       padding: const EdgeInsetsDirectional.fromSTEB(
-                                          16.0, 0.0, 16.0, 0.0),
+                                          24.0, 6.0, 24.0, 6.0),
                                       iconPadding:
                                           const EdgeInsetsDirectional.fromSTEB(
                                               0.0, 0.0, 0.0, 0.0),
-                                      color: FlutterFlowTheme.of(context)
-                                          .secondary,
+                                      color:
+                                          FlutterFlowTheme.of(context).primary,
                                       textStyle: FlutterFlowTheme.of(context)
-                                          .titleSmall
+                                          .bodyMedium
                                           .override(
-                                            fontFamily: 'Capriola',
-                                            color: Colors.white,
-                                            fontSize: 14.0,
-                                            letterSpacing: 0.75,
-                                            fontWeight: FontWeight.w500,
+                                            fontFamily: 'Roboto',
+                                            color: FlutterFlowTheme.of(context)
+                                                .secondary,
+                                            fontSize: 12.0,
+                                            letterSpacing: 0.0,
                                           ),
                                       elevation: 0.5,
-                                      borderSide: BorderSide(
-                                        color: FlutterFlowTheme.of(context)
-                                            .accent1,
-                                        width: 0.5,
+                                      borderSide: const BorderSide(
+                                        width: 0.0,
                                       ),
-                                      borderRadius: BorderRadius.circular(16.0),
+                                      borderRadius: BorderRadius.circular(6.0),
                                     ),
                                   ),
                                 ),

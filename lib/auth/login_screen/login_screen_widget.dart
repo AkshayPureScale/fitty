@@ -75,7 +75,7 @@ class _LoginScreenWidgetState extends State<LoginScreenWidget> {
                       'a922furx' /* Fitty */,
                     ),
                     style: FlutterFlowTheme.of(context).displayMedium.override(
-                          fontFamily: 'Delius Swash Caps',
+                          fontFamily: 'Roboto',
                           letterSpacing: 0.0,
                         ),
                   ),
@@ -97,33 +97,34 @@ class _LoginScreenWidgetState extends State<LoginScreenWidget> {
                         obscureText: false,
                         decoration: InputDecoration(
                           isDense: true,
-                          labelStyle:
-                              FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Capriola',
-                                    letterSpacing: 1.0,
-                                  ),
+                          labelStyle: FlutterFlowTheme.of(context)
+                              .labelMedium
+                              .override(
+                                fontFamily: 'Roboto',
+                                color: FlutterFlowTheme.of(context).primaryText,
+                                letterSpacing: 1.0,
+                              ),
                           hintText: FFLocalizations.of(context).getText(
                             '3l9drgj0' /* Mobile Number */,
                           ),
-                          hintStyle:
-                              FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Capriola',
-                                    color: FlutterFlowTheme.of(context)
-                                        .secondaryBackground,
-                                    letterSpacing: 0.0,
-                                  ),
+                          hintStyle: FlutterFlowTheme.of(context)
+                              .labelMedium
+                              .override(
+                                fontFamily: 'Roboto',
+                                color:
+                                    FlutterFlowTheme.of(context).secondaryText,
+                                letterSpacing: 0.0,
+                              ),
                           enabledBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: FlutterFlowTheme.of(context)
-                                  .secondaryBackground,
+                              color: FlutterFlowTheme.of(context).secondaryText,
                               width: 1.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
-                              color: FlutterFlowTheme.of(context)
-                                  .primaryBackground,
+                              color: FlutterFlowTheme.of(context).secondary,
                               width: 1.0,
                             ),
                             borderRadius: BorderRadius.circular(8.0),
@@ -143,12 +144,15 @@ class _LoginScreenWidgetState extends State<LoginScreenWidget> {
                             borderRadius: BorderRadius.circular(8.0),
                           ),
                           filled: true,
-                          fillColor: FlutterFlowTheme.of(context).alternate,
+                          fillColor:
+                              FlutterFlowTheme.of(context).secondaryBackground,
+                          hoverColor: FlutterFlowTheme.of(context).secondary,
                         ),
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Capriola',
                               color: FlutterFlowTheme.of(context)
                                   .secondaryBackground,
+                              fontSize: 12.0,
                               letterSpacing: 0.0,
                             ),
                         maxLength: 10,
@@ -157,8 +161,7 @@ class _LoginScreenWidgetState extends State<LoginScreenWidget> {
                                 required isFocused,
                                 maxLength}) =>
                             null,
-                        cursorColor:
-                            FlutterFlowTheme.of(context).primaryBackground,
+                        cursorColor: FlutterFlowTheme.of(context).secondary,
                         validator:
                             _model.textControllerValidator.asValidator(context),
                       ),
@@ -206,24 +209,22 @@ class _LoginScreenWidgetState extends State<LoginScreenWidget> {
                         width: double.infinity,
                         height: 40.0,
                         padding: const EdgeInsetsDirectional.fromSTEB(
-                            16.0, 0.0, 16.0, 0.0),
+                            24.0, 6.0, 24.0, 6.0),
                         iconPadding:
                             const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                        color: FlutterFlowTheme.of(context).secondary,
+                        color: FlutterFlowTheme.of(context).primary,
                         textStyle:
-                            FlutterFlowTheme.of(context).titleSmall.override(
-                                  fontFamily: 'Capriola',
-                                  color: Colors.white,
-                                  fontSize: 14.0,
-                                  letterSpacing: 0.75,
-                                  fontWeight: FontWeight.w500,
+                            FlutterFlowTheme.of(context).bodyMedium.override(
+                                  fontFamily: 'Roboto',
+                                  color: FlutterFlowTheme.of(context).secondary,
+                                  fontSize: 12.0,
+                                  letterSpacing: 0.0,
                                 ),
                         elevation: 0.5,
-                        borderSide: BorderSide(
-                          color: FlutterFlowTheme.of(context).accent1,
-                          width: 0.5,
+                        borderSide: const BorderSide(
+                          width: 0.0,
                         ),
-                        borderRadius: BorderRadius.circular(16.0),
+                        borderRadius: BorderRadius.circular(6.0),
                       ),
                     ),
                   ),
@@ -244,7 +245,7 @@ class _LoginScreenWidgetState extends State<LoginScreenWidget> {
                             ),
                             style:
                                 FlutterFlowTheme.of(context).bodySmall.override(
-                                      fontFamily: 'Capriola',
+                                      fontFamily: 'Roboto',
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryText,
                                       letterSpacing: 0.0,
@@ -257,7 +258,7 @@ class _LoginScreenWidgetState extends State<LoginScreenWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .headlineSmall
                                 .override(
-                                  fontFamily: 'Delius Swash Caps',
+                                  fontFamily: 'Roboto',
                                   fontSize: 13.0,
                                   letterSpacing: 0.0,
                                 ),
@@ -269,7 +270,7 @@ class _LoginScreenWidgetState extends State<LoginScreenWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Capriola',
+                                  fontFamily: 'Roboto',
                                   color: FlutterFlowTheme.of(context).secondary,
                                   fontSize: 13.0,
                                   letterSpacing: 0.0,
@@ -288,7 +289,7 @@ class _LoginScreenWidgetState extends State<LoginScreenWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Capriola',
+                                  fontFamily: 'Roboto',
                                   color: FlutterFlowTheme.of(context)
                                       .secondaryText,
                                   fontSize: 12.0,
@@ -300,10 +301,11 @@ class _LoginScreenWidgetState extends State<LoginScreenWidget> {
                               'zsffq6hh' /* Privacy Policy */,
                             ),
                             style: FlutterFlowTheme.of(context)
-                                .bodySmall
+                                .bodyMedium
                                 .override(
-                                  fontFamily: 'Capriola',
+                                  fontFamily: 'Roboto',
                                   color: FlutterFlowTheme.of(context).secondary,
+                                  fontSize: 13.0,
                                   letterSpacing: 0.0,
                                 ),
                             mouseCursor: SystemMouseCursors.click,
@@ -320,14 +322,14 @@ class _LoginScreenWidgetState extends State<LoginScreenWidget> {
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
-                                  fontFamily: 'Capriola',
+                                  fontFamily: 'Roboto',
                                   letterSpacing: 0.0,
                                   decoration: TextDecoration.underline,
                                 ),
                           )
                         ],
                         style: FlutterFlowTheme.of(context).bodySmall.override(
-                              fontFamily: 'Capriola',
+                              fontFamily: 'Roboto',
                               color: FlutterFlowTheme.of(context).secondaryText,
                               fontSize: 12.0,
                               letterSpacing: 0.0,
