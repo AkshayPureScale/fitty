@@ -1,2 +1,4 @@
+NSCameraUsageDescription = "To join walk room with camera";
+NSPhotoLibraryUsageDescription = "To update the profile photo";
 NSMotionUsageDescription = "This application tracks your steps";
 NSMicrophoneUsageDescription = "This app will microphone for calls";

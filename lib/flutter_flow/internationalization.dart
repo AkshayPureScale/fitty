@@ -173,7 +173,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Fitty',
       'hi': '',
     },
-    'dwpydgy2': {
+    'huk5j0ee': {
       'en': '',
       'hi': '',
     },
@@ -181,7 +181,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Mobile Number',
       'hi': 'मोबाइल नंबर',
     },
-    'qnpi3rdl': {
+    'r5nqmqz3': {
       'en': '',
       'hi': '',
     },
@@ -403,7 +403,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Your Name',
       'hi': '',
     },
-    'i32kqfca': {
+    'a4vwhzrb': {
       'en': '',
       'hi': '',
     },
@@ -415,7 +415,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Your Email',
       'hi': '',
     },
-    'rkokc5k8': {
+    'a7hx9oyn': {
       'en': '',
       'hi': '',
     },
@@ -447,7 +447,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Height (Fit)',
       'hi': '',
     },
-    'egjsmz64': {
+    'qq11l4rl': {
       'en': '',
       'hi': '',
     },
@@ -455,7 +455,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Weight (KG)',
       'hi': '',
     },
-    'b77crgun': {
+    '0qdm46dt': {
       'en': '',
       'hi': '',
     },
@@ -575,11 +575,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'hi': 'पाठ्य से भरा',
     },
     'aw7k4ol0': {
-      'en': '',
+      'en': 'To join walk room with camera',
       'hi': '',
     },
     'kfomxq3g': {
-      'en': '',
+      'en': 'To update the profile photo',
       'hi': '',
     },
     'qzeykeg3': {
