@@ -78,7 +78,7 @@ class _UserSearchWidgetState extends State<UserSearchWidget>
                     'mgkqphry' /* Search users */,
                   ),
                   style: FlutterFlowTheme.of(context).headlineSmall.override(
-                        fontFamily: 'Delius Swash Caps',
+                        fontFamily: 'Roboto',
                         letterSpacing: 0.0,
                       ),
                 ),
@@ -142,7 +142,7 @@ class _UserSearchWidgetState extends State<UserSearchWidget>
                               style: FlutterFlowTheme.of(context)
                                   .titleSmall
                                   .override(
-                                    fontFamily: 'Capriola',
+                                    fontFamily: 'Roboto',
                                     color: FlutterFlowTheme.of(context).primary,
                                     fontSize: 16.0,
                                     letterSpacing: 0.0,
@@ -166,7 +166,7 @@ class _UserSearchWidgetState extends State<UserSearchWidget>
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
-                                      fontFamily: 'Capriola',
+                                      fontFamily: 'Roboto',
                                       letterSpacing: 0.0,
                                     ),
                               ),
@@ -208,7 +208,7 @@ class _UserSearchWidgetState extends State<UserSearchWidget>
                     ),
                     labelStyle:
                         FlutterFlowTheme.of(context).labelMedium.override(
-                              fontFamily: 'Capriola',
+                              fontFamily: 'Roboto',
                               letterSpacing: 0.0,
                             ),
                     enabledBorder: OutlineInputBorder(
@@ -247,7 +247,7 @@ class _UserSearchWidgetState extends State<UserSearchWidget>
                     ),
                   ),
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
-                        fontFamily: 'Capriola',
+                        fontFamily: 'Roboto',
                         letterSpacing: 0.0,
                       ),
                   maxLines: null,
@@ -267,7 +267,7 @@ class _UserSearchWidgetState extends State<UserSearchWidget>
                         'kx88sx4s' /* Recent search... */,
                       ),
                       style: FlutterFlowTheme.of(context).labelMedium.override(
-                            fontFamily: 'Capriola',
+                            fontFamily: 'Roboto',
                             letterSpacing: 0.0,
                           ),
                     ),
@@ -387,8 +387,7 @@ class _UserSearchWidgetState extends State<UserSearchWidget>
                                                     FlutterFlowTheme.of(context)
                                                         .bodyLarge
                                                         .override(
-                                                          fontFamily:
-                                                              'Capriola',
+                                                          fontFamily: 'Roboto',
                                                           letterSpacing: 0.0,
                                                         ),
                                               ),

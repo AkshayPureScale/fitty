@@ -97,7 +97,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
           desktop: false,
         )
             ? AppBar(
-                backgroundColor: FlutterFlowTheme.of(context).primary,
+                backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
                 automaticallyImplyLeading: false,
                 leading: FlutterFlowIconButton(
                   borderColor: Colors.transparent,
@@ -118,7 +118,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                     'beldhufr' /* Profile */,
                   ),
                   style: FlutterFlowTheme.of(context).headlineSmall.override(
-                        fontFamily: 'Delius Swash Caps',
+                        fontFamily: 'Roboto',
                         fontSize: 22.0,
                         letterSpacing: 0.0,
                       ),
@@ -164,7 +164,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                           ),
                           style:
                               FlutterFlowTheme.of(context).labelMedium.override(
-                                    fontFamily: 'Capriola',
+                                    fontFamily: 'Roboto',
                                     letterSpacing: 0.0,
                                   ),
                         ),
@@ -222,7 +222,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                           style: FlutterFlowTheme.of(context)
                                               .displaySmall
                                               .override(
-                                                fontFamily: 'Delius Swash Caps',
+                                                fontFamily: 'Roboto',
                                                 letterSpacing: 0.0,
                                               ),
                                         ),
@@ -236,7 +236,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
-                                                  fontFamily: 'Capriola',
+                                                  fontFamily: 'Roboto',
                                                   color: FlutterFlowTheme.of(
                                                           context)
                                                       .primary,
@@ -261,7 +261,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                               style: FlutterFlowTheme.of(context)
                                   .labelMedium
                                   .override(
-                                    fontFamily: 'Capriola',
+                                    fontFamily: 'Roboto',
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -312,7 +312,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
-                                              fontFamily: 'Capriola',
+                                              fontFamily: 'Roboto',
                                               letterSpacing: 0.0,
                                             ),
                                       ),
@@ -356,7 +356,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
-                                            fontFamily: 'Capriola',
+                                            fontFamily: 'Roboto',
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -464,7 +464,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                                           .bodyMedium
                                                           .override(
                                                             fontFamily:
-                                                                'Capriola',
+                                                                'Roboto',
                                                             color: FFAppState()
                                                                         .CurrentLanguage ==
                                                                     'En'
@@ -556,7 +556,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                                           .bodyMedium
                                                           .override(
                                                             fontFamily:
-                                                                'Capriola',
+                                                                'Roboto',
                                                             color: FFAppState()
                                                                         .CurrentLanguage ==
                                                                     'Hi'
@@ -593,7 +593,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                               style: FlutterFlowTheme.of(context)
                                   .labelMedium
                                   .override(
-                                    fontFamily: 'Capriola',
+                                    fontFamily: 'Roboto',
                                     letterSpacing: 0.0,
                                   ),
                             ),
@@ -626,7 +626,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
-                                            fontFamily: 'Capriola',
+                                            fontFamily: 'Roboto',
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -669,7 +669,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
-                                            fontFamily: 'Capriola',
+                                            fontFamily: 'Roboto',
                                             letterSpacing: 0.0,
                                           ),
                                     ),
@@ -711,7 +711,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                         ),
                         style:
                             FlutterFlowTheme.of(context).labelMedium.override(
-                                  fontFamily: 'Capriola',
+                                  fontFamily: 'Roboto',
                                   fontSize: 12.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.normal,

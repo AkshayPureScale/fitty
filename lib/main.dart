@@ -10,7 +10,6 @@ import 'backend/firebase/firebase_config.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import 'flutter_flow/flutter_flow_util.dart';
 import 'flutter_flow/internationalization.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'index.dart';
 
 void main() async {
@@ -158,9 +157,9 @@ class _NavBarPageState extends State<NavBarPage> {
           _currentPage = null;
           _currentPageName = tabs.keys.toList()[i];
         }),
-        backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
-        selectedItemColor: FlutterFlowTheme.of(context).alternate,
-        unselectedItemColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        selectedItemColor: FlutterFlowTheme.of(context).primary,
+        unselectedItemColor: FlutterFlowTheme.of(context).alternate,
         showSelectedLabels: true,
         showUnselectedLabels: true,
         type: BottomNavigationBarType.fixed,
@@ -186,8 +185,8 @@ class _NavBarPageState extends State<NavBarPage> {
             tooltip: '',
           ),
           BottomNavigationBarItem(
-            icon: const FaIcon(
-              FontAwesomeIcons.userFriends,
+            icon: const Icon(
+              Icons.groups_3_sharp,
               size: 24.0,
             ),
             label: FFLocalizations.of(context).getText(

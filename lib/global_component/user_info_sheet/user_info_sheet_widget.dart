@@ -176,7 +176,7 @@ class _UserInfoSheetWidgetState extends State<UserInfoSheetWidget>
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
-                                      fontFamily: 'Delius Swash Caps',
+                                      fontFamily: 'Roboto',
                                       fontSize: 20.0,
                                       letterSpacing: 0.0,
                                     ),
@@ -219,7 +219,7 @@ class _UserInfoSheetWidgetState extends State<UserInfoSheetWidget>
                                                 FlutterFlowTheme.of(context)
                                                     .titleSmall
                                                     .override(
-                                                      fontFamily: 'Capriola',
+                                                      fontFamily: 'Roboto',
                                                       color: Colors.white,
                                                       letterSpacing: 0.0,
                                                     ),
@@ -298,7 +298,7 @@ class _UserInfoSheetWidgetState extends State<UserInfoSheetWidget>
                                                 FlutterFlowTheme.of(context)
                                                     .titleSmall
                                                     .override(
-                                                      fontFamily: 'Capriola',
+                                                      fontFamily: 'Roboto',
                                                       color: Colors.white,
                                                       letterSpacing: 0.0,
                                                     ),
@@ -315,7 +315,7 @@ class _UserInfoSheetWidgetState extends State<UserInfoSheetWidget>
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                fontFamily: 'Capriola',
+                                                fontFamily: 'Roboto',
                                                 color:
                                                     FlutterFlowTheme.of(context)
                                                         .warning,
