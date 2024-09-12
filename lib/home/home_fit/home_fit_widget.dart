@@ -1,3 +1,6 @@
+import 'package:fitty/custom_code/actions/index.dart';
+import 'package:fitty/custom_code/actions/zego_init_profile.dart';
+
 import '/auth/firebase_auth/auth_util.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -128,10 +131,6 @@ class _HomeFitWidgetState extends State<HomeFitWidget> {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          await requestPermission(microphonePermission);
-                          await requestPermission(cameraPermission);
-                          await actions.zegoInitProfile();
-
                           context.pushNamed(
                             'Room',
                             queryParameters: {

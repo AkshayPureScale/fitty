@@ -69,11 +69,11 @@ class _CallPanelZegoState extends State<CallPanelZego> {
             spacing: 16,
             children: [
               SizedBox.square(
-                dimension: MediaQuery.of(context).size.width / 5,
+                dimension: 100,
                 child: localView ?? const SizedBox.shrink(),
               ),
               SizedBox.square(
-                dimension: MediaQuery.of(context).size.width / 5,
+                dimension: 100,
                 child: AspectRatio(
                   aspectRatio: 9.0 / 16.0,
                   child: remoteView ?? Container(color: Colors.transparent),
