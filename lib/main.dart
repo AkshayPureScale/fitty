@@ -103,12 +103,12 @@ class _MyAppState extends State<MyApp> {
           thumbVisibility: WidgetStateProperty.all(false),
           thumbColor: WidgetStateProperty.resolveWith((states) {
             if (states.contains(WidgetState.dragged)) {
-              return const Color(0x9976e5ec);
+              return const Color(0xff1564ff);
             }
             if (states.contains(WidgetState.hovered)) {
-              return const Color(0x9976e5ec);
+              return const Color(0xff1564ff);
             }
-            return const Color(0x9976e5ec);
+            return const Color(0xff1564ff);
           }),
         ),
       ),

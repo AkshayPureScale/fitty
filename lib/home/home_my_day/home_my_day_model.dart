@@ -1,3 +1,4 @@
+import '/backend/schema/structs/index.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/global_component/background_card/background_card_widget.dart';
 import 'home_my_day_widget.dart' show HomeMyDayWidget;
@@ -9,7 +10,7 @@ class HomeMyDayModel extends FlutterFlowModel<HomeMyDayWidget> {
   // Stores action output result for [Custom Action - permissionRequestPedometer] action in Home-MyDay widget.
   bool? permissionResult;
   // Stores action output result for [Custom Action - getStepCountData] action in Home-MyDay widget.
-  dynamic stepCount;
+  PedometerDataStruct? stepCount;
   // Model for BackgroundCard component.
   late BackgroundCardModel backgroundCardModel;
 

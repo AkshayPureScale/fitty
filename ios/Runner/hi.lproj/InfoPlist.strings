@@ -1,1 +1,4 @@
-
+NSCameraUsageDescription = "वॉक रूम को कैमरे से जोड़ने के लिए";
+NSPhotoLibraryUsageDescription = "प्रोफ़ाइल फ़ोटो अपडेट करने के लिए";
+NSMotionUsageDescription = "यह एप्लिकेशन आपके कदमों को ट्रैक करता है";
+NSMicrophoneUsageDescription = "यह ऐप कॉल के लिए माइक्रोफ़ोन करेगा";

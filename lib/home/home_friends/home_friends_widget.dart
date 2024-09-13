@@ -119,7 +119,7 @@ class _HomeFriendsWidgetState extends State<HomeFriendsWidget> {
                       height: 36.0,
                       child: CircularProgressIndicator(
                         valueColor: AlwaysStoppedAnimation<Color>(
-                          FlutterFlowTheme.of(context).secondary,
+                          FlutterFlowTheme.of(context).primary,
                         ),
                       ),
                     ),
@@ -253,7 +253,7 @@ class _HomeFriendsWidgetState extends State<HomeFriendsWidget> {
                                                       AlwaysStoppedAnimation<
                                                           Color>(
                                                     FlutterFlowTheme.of(context)
-                                                        .secondary,
+                                                        .primary,
                                                   ),
                                                 ),
                                               ),
