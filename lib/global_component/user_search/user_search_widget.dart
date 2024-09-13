@@ -108,7 +108,7 @@ class _UserSearchWidgetState extends State<UserSearchWidget>
                               height: 36.0,
                               child: CircularProgressIndicator(
                                 valueColor: AlwaysStoppedAnimation<Color>(
-                                  FlutterFlowTheme.of(context).secondary,
+                                  FlutterFlowTheme.of(context).primary,
                                 ),
                               ),
                             ),
@@ -293,7 +293,7 @@ class _UserSearchWidgetState extends State<UserSearchWidget>
                             height: 36.0,
                             child: CircularProgressIndicator(
                               valueColor: AlwaysStoppedAnimation<Color>(
-                                FlutterFlowTheme.of(context).secondary,
+                                FlutterFlowTheme.of(context).primary,
                               ),
                             ),
                           ),

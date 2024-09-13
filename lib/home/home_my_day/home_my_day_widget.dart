@@ -160,10 +160,7 @@ class _HomeMyDayWidgetState extends State<HomeMyDayWidget> {
                                 alignment: const AlignmentDirectional(0.0, 0.0),
                                 child: Text(
                                   valueOrDefault<String>(
-                                    getJsonField(
-                                      _model.stepCount,
-                                      r'''$.steps''',
-                                    )?.toString(),
+                                    _model.stepCount?.steps.toString(),
                                     '1407',
                                   ),
                                   style: FlutterFlowTheme.of(context)

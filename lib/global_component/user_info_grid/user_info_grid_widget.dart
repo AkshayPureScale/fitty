@@ -54,7 +54,7 @@ class _UserInfoGridWidgetState extends State<UserInfoGridWidget> {
               height: 36.0,
               child: CircularProgressIndicator(
                 valueColor: AlwaysStoppedAnimation<Color>(
-                  FlutterFlowTheme.of(context).secondary,
+                  FlutterFlowTheme.of(context).primary,
                 ),
               ),
             ),

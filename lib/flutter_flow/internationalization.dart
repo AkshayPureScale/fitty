@@ -171,9 +171,9 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'a922furx': {
       'en': 'Fitty',
-      'hi': '',
+      'hi': 'फिट्टी',
     },
-    'huk5j0ee': {
+    '1glc0hja': {
       'en': '',
       'hi': '',
     },
@@ -181,7 +181,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Mobile Number',
       'hi': 'मोबाइल नंबर',
     },
-    'r5nqmqz3': {
+    's1c0a6ut': {
       'en': '',
       'hi': '',
     },
@@ -191,27 +191,27 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'cxu104i9': {
       'en': 'By creating account, you agree to ',
-      'hi': '',
+      'hi': 'खाता बनाकर, आप सहमत होते हैं',
     },
     '4hr4kzfb': {
       'en': 'Fitty,',
-      'hi': '',
+      'hi': 'फिट्टी,',
     },
     'xyh25b38': {
       'en': ' Terms and Conditions ',
-      'hi': '',
+      'hi': 'नियम और शर्तें',
     },
     '6uijtmhf': {
       'en': ' and ',
-      'hi': '',
+      'hi': 'और',
     },
     'zsffq6hh': {
       'en': 'Privacy Policy',
-      'hi': '',
+      'hi': 'गोपनीयता नीति',
     },
     's890mh6l': {
       'en': '.',
-      'hi': '',
+      'hi': '.',
     },
     'o4uxmt3h': {
       'en': 'Home',
@@ -222,11 +222,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'lzp4nne1': {
       'en': 'Fitty',
-      'hi': '',
+      'hi': 'फिट्टी',
     },
     'zdrqfmka': {
       'en': 'OTP sent to ',
-      'hi': '',
+      'hi': 'ओटीपी भेजा गया',
     },
     '71e1lqwy': {
       'en': ' ',
@@ -234,7 +234,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '0erf6er8': {
       'en': '(Wrong Number)',
-      'hi': '',
+      'hi': '(गलत संख्या)',
     },
     'nrsb9wzl': {
       'en': 'Verify & Continue',
@@ -242,27 +242,27 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'jbwd1ca1': {
       'en': 'By creating account, you agree to ',
-      'hi': '',
+      'hi': 'खाता बनाकर, आप सहमत होते हैं',
     },
     'o0cter3k': {
       'en': 'Fitty,',
-      'hi': '',
+      'hi': 'फिट्टी,',
     },
     '9rm9a228': {
       'en': ' Terms and Conditions ',
-      'hi': '',
+      'hi': 'नियम और शर्तें',
     },
     'fu9a2i0z': {
       'en': ' and ',
-      'hi': '',
+      'hi': 'और',
     },
     'j7xz4r2j': {
       'en': 'Privacy Policy',
-      'hi': '',
+      'hi': 'गोपनीयता नीति',
     },
     'qhmoxo0q': {
       'en': '.',
-      'hi': '',
+      'hi': '.',
     },
     '7de0z1nn': {
       'en': 'Home',
@@ -273,65 +273,65 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     '5g0tr13n': {
       'en': 'Yoga Room\'s',
-      'hi': '',
+      'hi': 'योग कक्ष',
     },
     '2qp7iaj2': {
       'en': 'Yoga Day Room',
-      'hi': '',
+      'hi': 'योग दिवस कक्ष',
     },
     'azk5xcgs': {
       'en': 'Anyone can join this ',
-      'hi': '',
+      'hi': 'कोई भी इसमें शामिल हो सकता है',
     },
     'nz0bft14': {
       'en': 'Fitty',
-      'hi': '',
+      'hi': 'फिट्टी',
     },
     '7x4pfrw4': {
       'en': 'Fit',
-      'hi': '',
+      'hi': 'उपयुक्त',
     },
   },
   // Home-MyDay
   {
     'hjt6mnk2': {
       'en': 'My Day',
-      'hi': '',
+      'hi': 'मेरा दिन',
     },
     'sgal4c4x': {
       'en': 'Your total steps seince from last 4 Hours',
-      'hi': '',
+      'hi': 'पिछले 4 घंटों से आपके कुल कदम',
     },
     '5ep8sd7b': {
       'en': 'Fitty',
-      'hi': '',
+      'hi': 'फिट्टी',
     },
     'tt9dn6ub': {
       'en': 'My Day',
-      'hi': '',
+      'hi': 'मेरा दिन',
     },
   },
   // Home-Friends
   {
     '0n1zkcsy': {
       'en': 'Top Fitty Friends',
-      'hi': '',
+      'hi': 'शीर्ष फिटी मित्र',
     },
     '2fjjmgn7': {
       'en': 'All friends',
-      'hi': '',
+      'hi': 'सभी दोस्त',
     },
     '3ce2a8tr': {
       'en': 'Last Message',
-      'hi': '',
+      'hi': 'अंतिम संदेश',
     },
     'c1p1cejg': {
       'en': 'Fitty',
-      'hi': '',
+      'hi': 'फिट्टी',
     },
     'qpk1brus': {
       'en': 'Friends',
-      'hi': '',
+      'hi': 'दोस्त',
     },
   },
   // ProfileScreen
@@ -374,11 +374,11 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'ptu85yfz': {
       'en': 'Logout',
-      'hi': '',
+      'hi': 'लॉग आउट',
     },
     'beldhufr': {
       'en': 'Profile',
-      'hi': '',
+      'hi': 'प्रोफ़ाइल',
     },
     'x546iwhv': {
       'en': 'Home',
@@ -401,9 +401,9 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     '6wq8sp27': {
       'en': 'Your Name',
-      'hi': '',
+      'hi': 'आपका नाम',
     },
-    'a4vwhzrb': {
+    'z9agumtz': {
       'en': '',
       'hi': '',
     },
@@ -413,31 +413,31 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'j9sy6gp8': {
       'en': 'Your Email',
-      'hi': '',
+      'hi': 'आपका ईमेल',
     },
-    'a7hx9oyn': {
+    '843pfegt': {
       'en': '',
       'hi': '',
     },
     'ioo4keaw': {
       'en': 'Date of Birth',
-      'hi': '',
+      'hi': 'जन्म तिथि',
     },
     'bmzvbm28': {
       'en': 'Gender',
-      'hi': '',
+      'hi': 'लिंग',
     },
     'scff2dd7': {
       'en': 'Male',
-      'hi': '',
+      'hi': 'पुरुष',
     },
     '3ucawamk': {
       'en': 'Male',
-      'hi': '',
+      'hi': 'पुरुष',
     },
     'xfhsgi4d': {
       'en': 'Female',
-      'hi': '',
+      'hi': 'महिला',
     },
     '929axg83': {
       'en': '',
@@ -445,17 +445,17 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'u2wiqlhs': {
       'en': 'Height (Fit)',
-      'hi': '',
+      'hi': 'ऊंचाई (फिट)',
     },
-    'qq11l4rl': {
+    'p5qio2h4': {
       'en': '',
       'hi': '',
     },
     '3sa3wk55': {
       'en': 'Weight (KG)',
-      'hi': '',
+      'hi': 'वजन (किलोग्राम)',
     },
-    '0qdm46dt': {
+    'iizrv3ag': {
       'en': '',
       'hi': '',
     },
@@ -493,7 +493,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'dfjpzl89': {
       'en': 'Profile',
-      'hi': '',
+      'hi': 'प्रोफ़ाइल',
     },
     '21r0x9oq': {
       'en': 'Home',
@@ -504,43 +504,43 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     'lfv9yitl': {
       'en': 'Search for users...',
-      'hi': '',
+      'hi': 'उपयोगकर्ताओं को खोजें...',
     },
     'kx88sx4s': {
       'en': 'Recent search...',
-      'hi': '',
+      'hi': 'हाल ही की खोज...',
     },
     'mgkqphry': {
       'en': 'Search users',
-      'hi': '',
+      'hi': 'उपयोगकर्ता खोजें',
     },
     'hywqr7wq': {
       'en': 'Requests',
-      'hi': '',
+      'hi': 'अनुरोध',
     },
     'uj6dg8ra': {
       'en': 'Home',
-      'hi': '',
+      'hi': 'घर',
     },
   },
   // ViewRequests
   {
     'b901u6x2': {
       'en': 'Recent search...',
-      'hi': '',
+      'hi': 'हाल ही की खोज...',
     },
     'r433s7mj': {
       'en': 'Friend Requests',
-      'hi': '',
+      'hi': 'मित्र अनुरोध',
     },
     'vt6zs26o': {
       'en': 'Home',
-      'hi': '',
+      'hi': 'घर',
     },
   },
   // Room
   {
-    'd5cequet': {
+    'iih0463m': {
       'en': 'Home',
       'hi': 'घर',
     },
@@ -549,15 +549,15 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   {
     '5ab1odgv': {
       'en': '- Remove Friend',
-      'hi': '',
+      'hi': '- मित्र को हटाएँ',
     },
     'hrgxtka4': {
       'en': '+ Add Friend',
-      'hi': '',
+      'hi': '+ मित्र जोड़ें',
     },
     'ljotla8c': {
       'en': 'Requested',
-      'hi': '',
+      'hi': 'अनुरोधित',
     },
   },
   // Miscellaneous
@@ -576,19 +576,19 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     },
     'aw7k4ol0': {
       'en': 'To join walk room with camera',
-      'hi': '',
+      'hi': 'वॉक रूम को कैमरे से जोड़ने के लिए',
     },
     'kfomxq3g': {
       'en': 'To update the profile photo',
-      'hi': '',
+      'hi': 'प्रोफ़ाइल फ़ोटो अपडेट करने के लिए',
     },
     'qzeykeg3': {
       'en': 'This application tracks your steps',
-      'hi': '',
+      'hi': 'यह एप्लिकेशन आपके कदमों को ट्रैक करता है',
     },
     'yrxtttlu': {
       'en': 'This app will microphone for calls',
-      'hi': '',
+      'hi': 'यह ऐप कॉल के लिए माइक्रोफ़ोन करेगा',
     },
     'kiza8w49': {
       'en': '',
