@@ -1,5 +1,6 @@
 // Automatic FlutterFlow imports
 import '/backend/backend.dart';
+import '/backend/schema/structs/index.dart';
 import '/backend/schema/enums/enums.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -12,11 +13,11 @@ import 'package:flutter/material.dart';
 import 'package:pedometer/pedometer.dart';
 import 'package:permission_handler/permission_handler.dart';
 
-Future<dynamic> getStepCountData() async {
+Future<PedometerDataStruct> getStepCountData() async {
   // Add your function code here!
-  StepCount stepCount = await Pedometer.stepCountStream.single;
-  return {
-    "steps": stepCount.steps,
-    "timeStamp": stepCount.timeStamp,
-  };
+  StepCount stepCount = await Pedometer.stepCountStream.first;
+  return PedometerDataStruct.fromMap({
+    'steps': stepCount.steps,
+    'time': stepCount.timeStamp,
+  });
 }

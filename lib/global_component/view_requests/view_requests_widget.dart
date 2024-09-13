@@ -131,7 +131,7 @@ class _ViewRequestsWidgetState extends State<ViewRequestsWidget>
                             height: 36.0,
                             child: CircularProgressIndicator(
                               valueColor: AlwaysStoppedAnimation<Color>(
-                                FlutterFlowTheme.of(context).secondary,
+                                FlutterFlowTheme.of(context).primary,
                               ),
                             ),
                           ),
@@ -167,7 +167,7 @@ class _ViewRequestsWidgetState extends State<ViewRequestsWidget>
                                             valueColor:
                                                 AlwaysStoppedAnimation<Color>(
                                               FlutterFlowTheme.of(context)
-                                                  .secondary,
+                                                  .primary,
                                             ),
                                           ),
                                         ),

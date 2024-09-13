@@ -209,7 +209,7 @@ class _FlutterFlowVideoPlayerState extends State<FlutterFlowVideoPlayer>
                           height: 36.0,
                           child: CircularProgressIndicator(
                             valueColor: AlwaysStoppedAnimation<Color>(
-                              FlutterFlowTheme.of(context).secondary,
+                              FlutterFlowTheme.of(context).primary,
                             ),
                           ),
                         ),
