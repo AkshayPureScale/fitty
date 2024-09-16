@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyAqGdBGIhk3KoIZlqigteLCnrkN4FK7pn8</string>
+	<string>AIzaSyAPn_xfcbQgrztziScHjYh4YXUEU2k9co8</string>
 	<key>GCM_SENDER_ID</key>
-	<string>923773604207</string>
+	<string>700115072881</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.fitty</string>
 	<key>PROJECT_ID</key>
-	<string>fitty-f9ff5</string>
+	<string>fitty-41f26</string>
 	<key>STORAGE_BUCKET</key>
-	<string>fitty-f9ff5.appspot.com</string>
+	<string>fitty-41f26.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:923773604207:ios:7d30e9059b64a4d8bc189a</string>
+	<string>1:700115072881:ios:b464d5e9c385fea963e8d0</string>
 </dict>
 </plist>

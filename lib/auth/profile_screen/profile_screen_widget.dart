@@ -3,10 +3,14 @@ import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
+import '/flutter_flow/flutter_flow_widgets.dart';
 import '/global_component/background_card/background_card_widget.dart';
+import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'profile_screen_model.dart';
 export 'profile_screen_model.dart';
@@ -39,8 +43,8 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
             curve: Curves.bounceOut,
             delay: 300.0.ms,
             duration: 400.0.ms,
-            begin: const Offset(0.0, 100.0),
-            end: const Offset(0.0, 0.0),
+            begin: Offset(0.0, 100.0),
+            end: Offset(0.0, 0.0),
           ),
           FadeEffect(
             curve: Curves.easeInOut,
@@ -59,8 +63,8 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 600.0.ms,
-            begin: const Offset(0.0, 0.0),
-            end: const Offset(115.0, 0.0),
+            begin: Offset(0.0, 0.0),
+            end: Offset(115.0, 0.0),
           ),
         ],
       ),
@@ -104,7 +108,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                   borderRadius: 30.0,
                   borderWidth: 1.0,
                   buttonSize: 60.0,
-                  icon: const Icon(
+                  icon: Icon(
                     Icons.chevron_left_rounded,
                     color: Colors.white,
                     size: 30.0,
@@ -123,7 +127,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                         letterSpacing: 0.0,
                       ),
                 ),
-                actions: const [],
+                actions: [],
                 centerTitle: true,
                 elevation: 0.0,
               )
@@ -133,7 +137,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
             wrapWithModel(
               model: _model.backgroundCardModel,
               updateCallback: () => safeSetState(() {}),
-              child: const BackgroundCardWidget(),
+              child: BackgroundCardWidget(),
             ),
             Padding(
               padding: EdgeInsetsDirectional.fromSTEB(
@@ -157,7 +161,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                     children: [
                       Padding(
                         padding:
-                            const EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 0.0),
+                            EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 0.0),
                         child: Text(
                           FFLocalizations.of(context).getText(
                             'n1o9nzv5' /* Below are your profile details */,
@@ -174,7 +178,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Padding(
-                            padding: const EdgeInsetsDirectional.fromSTEB(
+                            padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 16.0, 0.0, 0.0),
                             child: Row(
                               mainAxisSize: MainAxisSize.max,
@@ -192,7 +196,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                     ),
                                   ),
                                   child: Padding(
-                                    padding: const EdgeInsets.all(2.0),
+                                    padding: EdgeInsets.all(2.0),
                                     child: AuthUserStreamWidget(
                                       builder: (context) => ClipRRect(
                                         borderRadius:
@@ -208,7 +212,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                   ),
                                 ),
                                 Padding(
-                                  padding: const EdgeInsetsDirectional.fromSTEB(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
                                       16.0, 0.0, 0.0, 0.0),
                                   child: Column(
                                     mainAxisSize: MainAxisSize.max,
@@ -228,7 +232,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                         ),
                                       ),
                                       Padding(
-                                        padding: const EdgeInsetsDirectional.fromSTEB(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 4.0, 0.0, 0.0),
                                         child: AuthUserStreamWidget(
                                           builder: (context) => Text(
@@ -252,7 +256,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsetsDirectional.fromSTEB(
+                            padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 4.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
@@ -267,7 +271,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsetsDirectional.fromSTEB(
+                            padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 1.0),
                             child: InkWell(
                               splashColor: Colors.transparent,
@@ -278,7 +282,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                 context.pushNamed(
                                   'EditProfileScreen',
                                   extra: <String, dynamic>{
-                                    kTransitionInfoKey: const TransitionInfo(
+                                    kTransitionInfoKey: TransitionInfo(
                                       hasTransition: true,
                                       transitionType:
                                           PageTransitionType.rightToLeft,
@@ -299,7 +303,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                   ),
                                 ),
                                 child: Padding(
-                                  padding: const EdgeInsets.all(16.0),
+                                  padding: EdgeInsets.all(16.0),
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
                                     mainAxisAlignment:
@@ -329,7 +333,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsetsDirectional.fromSTEB(
+                            padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 1.0),
                             child: Container(
                               width: double.infinity,
@@ -343,7 +347,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                 ),
                               ),
                               child: Padding(
-                                padding: const EdgeInsets.all(16.0),
+                                padding: EdgeInsets.all(16.0),
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment:
@@ -372,7 +376,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                             ),
                           ),
                           Align(
-                            alignment: const AlignmentDirectional(0.0, 0.0),
+                            alignment: AlignmentDirectional(0.0, 0.0),
                             child: Container(
                               width: double.infinity,
                               height: 50.0,
@@ -386,7 +390,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                 ),
                               ),
                               child: Padding(
-                                padding: const EdgeInsets.all(4.0),
+                                padding: EdgeInsets.all(4.0),
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment: MainAxisAlignment.start,
@@ -450,7 +454,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                                 size: 16.0,
                                               ),
                                               Padding(
-                                                padding: const EdgeInsetsDirectional
+                                                padding: EdgeInsetsDirectional
                                                     .fromSTEB(
                                                         4.0, 0.0, 0.0, 0.0),
                                                 child: Text(
@@ -542,7 +546,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                                 size: 16.0,
                                               ),
                                               Padding(
-                                                padding: const EdgeInsetsDirectional
+                                                padding: EdgeInsetsDirectional
                                                     .fromSTEB(
                                                         4.0, 0.0, 0.0, 0.0),
                                                 child: Text(
@@ -584,7 +588,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsetsDirectional.fromSTEB(
+                            padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 4.0, 0.0, 0.0),
                             child: Text(
                               FFLocalizations.of(context).getText(
@@ -599,7 +603,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsetsDirectional.fromSTEB(
+                            padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 1.0),
                             child: Container(
                               width: double.infinity,
@@ -613,7 +617,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                 ),
                               ),
                               child: Padding(
-                                padding: const EdgeInsets.all(16.0),
+                                padding: EdgeInsets.all(16.0),
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment:
@@ -642,7 +646,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsetsDirectional.fromSTEB(
+                            padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 0.0, 1.0),
                             child: Container(
                               width: double.infinity,
@@ -656,7 +660,7 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                                 ),
                               ),
                               child: Padding(
-                                padding: const EdgeInsets.all(16.0),
+                                padding: EdgeInsets.all(16.0),
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment:
@@ -685,14 +689,14 @@ class _ProfileScreenWidgetState extends State<ProfileScreenWidget>
                             ),
                           ),
                         ]
-                            .divide(const SizedBox(height: 12.0))
-                            .addToEnd(const SizedBox(height: 16.0)),
+                            .divide(SizedBox(height: 12.0))
+                            .addToEnd(SizedBox(height: 16.0)),
                       ),
                     ],
                   ).animateOnPageLoad(
                       animationsMap['columnOnPageLoadAnimation']!),
                   Padding(
-                    padding: const EdgeInsetsDirectional.fromSTEB(0.0, 4.0, 0.0, 0.0),
+                    padding: EdgeInsetsDirectional.fromSTEB(0.0, 4.0, 0.0, 0.0),
                     child: InkWell(
                       splashColor: Colors.transparent,
                       focusColor: Colors.transparent,

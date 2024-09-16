@@ -16,8 +16,5 @@ import 'package:permission_handler/permission_handler.dart';
 Future<PedometerDataStruct> getStepCountData() async {
   // Add your function code here!
   StepCount stepCount = await Pedometer.stepCountStream.first;
-  return PedometerDataStruct.fromMap({
-    'steps': stepCount.steps,
-    'time': stepCount.timeStamp,
-  });
+  return PedometerDataStruct(steps: stepCount.steps, time: stepCount.timeStamp);
 }
