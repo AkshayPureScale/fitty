@@ -13,6 +13,10 @@ import 'schema/groups_record.dart';
 import 'schema/program_record.dart';
 import 'schema/chats_record.dart';
 import 'schema/messages_record.dart';
+import 'schema/users_daily_count_record.dart';
+import 'schema/walk_rooms_record.dart';
+import 'schema/user_based_step_count_record.dart';
+import 'schema/co_host_record.dart';
 
 export 'dart:async' show StreamSubscription;
 export 'package:cloud_firestore/cloud_firestore.dart' hide Order;
@@ -29,6 +33,10 @@ export 'schema/groups_record.dart';
 export 'schema/program_record.dart';
 export 'schema/chats_record.dart';
 export 'schema/messages_record.dart';
+export 'schema/users_daily_count_record.dart';
+export 'schema/walk_rooms_record.dart';
+export 'schema/user_based_step_count_record.dart';
+export 'schema/co_host_record.dart';
 
 /// Functions to query UsersRecords (as a Stream and as a Future).
 Future<int> queryUsersRecordCount({
@@ -326,6 +334,160 @@ Future<List<MessagesRecord>> queryMessagesRecordOnce({
       singleRecord: singleRecord,
     );
 
+/// Functions to query UsersDailyCountRecords (as a Stream and as a Future).
+Future<int> queryUsersDailyCountRecordCount({
+  Query Function(Query)? queryBuilder,
+  int limit = -1,
+}) =>
+    queryCollectionCount(
+      UsersDailyCountRecord.collection,
+      queryBuilder: queryBuilder,
+      limit: limit,
+    );
+
+Stream<List<UsersDailyCountRecord>> queryUsersDailyCountRecord({
+  Query Function(Query)? queryBuilder,
+  int limit = -1,
+  bool singleRecord = false,
+}) =>
+    queryCollection(
+      UsersDailyCountRecord.collection,
+      UsersDailyCountRecord.fromSnapshot,
+      queryBuilder: queryBuilder,
+      limit: limit,
+      singleRecord: singleRecord,
+    );
+
+Future<List<UsersDailyCountRecord>> queryUsersDailyCountRecordOnce({
+  Query Function(Query)? queryBuilder,
+  int limit = -1,
+  bool singleRecord = false,
+}) =>
+    queryCollectionOnce(
+      UsersDailyCountRecord.collection,
+      UsersDailyCountRecord.fromSnapshot,
+      queryBuilder: queryBuilder,
+      limit: limit,
+      singleRecord: singleRecord,
+    );
+
+/// Functions to query WalkRoomsRecords (as a Stream and as a Future).
+Future<int> queryWalkRoomsRecordCount({
+  Query Function(Query)? queryBuilder,
+  int limit = -1,
+}) =>
+    queryCollectionCount(
+      WalkRoomsRecord.collection,
+      queryBuilder: queryBuilder,
+      limit: limit,
+    );
+
+Stream<List<WalkRoomsRecord>> queryWalkRoomsRecord({
+  Query Function(Query)? queryBuilder,
+  int limit = -1,
+  bool singleRecord = false,
+}) =>
+    queryCollection(
+      WalkRoomsRecord.collection,
+      WalkRoomsRecord.fromSnapshot,
+      queryBuilder: queryBuilder,
+      limit: limit,
+      singleRecord: singleRecord,
+    );
+
+Future<List<WalkRoomsRecord>> queryWalkRoomsRecordOnce({
+  Query Function(Query)? queryBuilder,
+  int limit = -1,
+  bool singleRecord = false,
+}) =>
+    queryCollectionOnce(
+      WalkRoomsRecord.collection,
+      WalkRoomsRecord.fromSnapshot,
+      queryBuilder: queryBuilder,
+      limit: limit,
+      singleRecord: singleRecord,
+    );
+
+/// Functions to query UserBasedStepCountRecords (as a Stream and as a Future).
+Future<int> queryUserBasedStepCountRecordCount({
+  DocumentReference? parent,
+  Query Function(Query)? queryBuilder,
+  int limit = -1,
+}) =>
+    queryCollectionCount(
+      UserBasedStepCountRecord.collection(parent),
+      queryBuilder: queryBuilder,
+      limit: limit,
+    );
+
+Stream<List<UserBasedStepCountRecord>> queryUserBasedStepCountRecord({
+  DocumentReference? parent,
+  Query Function(Query)? queryBuilder,
+  int limit = -1,
+  bool singleRecord = false,
+}) =>
+    queryCollection(
+      UserBasedStepCountRecord.collection(parent),
+      UserBasedStepCountRecord.fromSnapshot,
+      queryBuilder: queryBuilder,
+      limit: limit,
+      singleRecord: singleRecord,
+    );
+
+Future<List<UserBasedStepCountRecord>> queryUserBasedStepCountRecordOnce({
+  DocumentReference? parent,
+  Query Function(Query)? queryBuilder,
+  int limit = -1,
+  bool singleRecord = false,
+}) =>
+    queryCollectionOnce(
+      UserBasedStepCountRecord.collection(parent),
+      UserBasedStepCountRecord.fromSnapshot,
+      queryBuilder: queryBuilder,
+      limit: limit,
+      singleRecord: singleRecord,
+    );
+
+/// Functions to query CoHostRecords (as a Stream and as a Future).
+Future<int> queryCoHostRecordCount({
+  DocumentReference? parent,
+  Query Function(Query)? queryBuilder,
+  int limit = -1,
+}) =>
+    queryCollectionCount(
+      CoHostRecord.collection(parent),
+      queryBuilder: queryBuilder,
+      limit: limit,
+    );
+
+Stream<List<CoHostRecord>> queryCoHostRecord({
+  DocumentReference? parent,
+  Query Function(Query)? queryBuilder,
+  int limit = -1,
+  bool singleRecord = false,
+}) =>
+    queryCollection(
+      CoHostRecord.collection(parent),
+      CoHostRecord.fromSnapshot,
+      queryBuilder: queryBuilder,
+      limit: limit,
+      singleRecord: singleRecord,
+    );
+
+Future<List<CoHostRecord>> queryCoHostRecordOnce({
+  DocumentReference? parent,
+  Query Function(Query)? queryBuilder,
+  int limit = -1,
+  bool singleRecord = false,
+}) =>
+    queryCollectionOnce(
+      CoHostRecord.collection(parent),
+      CoHostRecord.fromSnapshot,
+      queryBuilder: queryBuilder,
+      limit: limit,
+      singleRecord: singleRecord,
+    );
+
 Future<int> queryCollectionCount(
   Query collection, {
   Query Function(Query)? queryBuilder,
@@ -445,7 +607,7 @@ Future<FFFirestorePage<T>> queryCollectionPage<T>(
   } else {
     docSnapshot = await query.get();
   }
-  getDocs(QuerySnapshot s) => s.docs
+  final getDocs = (QuerySnapshot s) => s.docs
       .map(
         (d) => safeGet(
           () => recordBuilder(d),
