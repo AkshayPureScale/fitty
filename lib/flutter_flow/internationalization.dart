@@ -173,7 +173,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Fitty',
       'hi': 'फिट्टी',
     },
-    '1glc0hja': {
+    'pjeyagfs': {
       'en': '',
       'hi': '',
     },
@@ -181,7 +181,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Mobile Number',
       'hi': 'मोबाइल नंबर',
     },
-    's1c0a6ut': {
+    '76lmwopp': {
       'en': '',
       'hi': '',
     },
@@ -298,9 +298,9 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'My Day',
       'hi': 'मेरा दिन',
     },
-    'sgal4c4x': {
-      'en': 'Your total steps seince from last 4 Hours',
-      'hi': 'पिछले 4 घंटों से आपके कुल कदम',
+    'o0a8lquv': {
+      'en': 'Your total steps seince from last ',
+      'hi': '',
     },
     '5ep8sd7b': {
       'en': 'Fitty',
@@ -403,7 +403,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Your Name',
       'hi': 'आपका नाम',
     },
-    'z9agumtz': {
+    'n3vtvk20': {
       'en': '',
       'hi': '',
     },
@@ -415,7 +415,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Your Email',
       'hi': 'आपका ईमेल',
     },
-    '843pfegt': {
+    't4ra9no1': {
       'en': '',
       'hi': '',
     },
@@ -447,7 +447,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Height (Fit)',
       'hi': 'ऊंचाई (फिट)',
     },
-    'p5qio2h4': {
+    'wjea7ywz': {
       'en': '',
       'hi': '',
     },
@@ -455,7 +455,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Weight (KG)',
       'hi': 'वजन (किलोग्राम)',
     },
-    'iizrv3ag': {
+    'isnwly63': {
       'en': '',
       'hi': '',
     },
